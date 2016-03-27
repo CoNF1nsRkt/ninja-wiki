@@ -23,13 +23,13 @@ class Output_HTML
 	{
 		$this->code		= '_WORD_';
 		$this->linecomment 	= '<font color="green">_WORD_</font>';
-		$this->blockcomment 	= '<font color="green">_WORD_</font>';
+		$this->blockcomment = '<font color="green">_WORD_</font>';
 		$this->prepro 		= '<font color="purple">_WORD_</font>';
 		$this->select 		= '<font color="red"><b>_WORD_</b></font>';
-		$this->quote 		= '<font color="blue">_WORD_</font>';
+		$this->quote 		= '<font color="#808080">_WORD_</font>';
 		$this->category_1 	= '<font color="#00ffff">_WORD_</font>';
-		$this->category_2 	= '<font color="red">_WORD_</font>';
-		$this->category_3 	= '<font color="#0A0A0A">_WORD_</font>';
+		$this->category_2 	= '<font color="#ffff1a">_WORD_</font>';
+		$this->category_3 	= '<font color="#cc0000">_WORD_</font>';
 	}
 }
 ?>

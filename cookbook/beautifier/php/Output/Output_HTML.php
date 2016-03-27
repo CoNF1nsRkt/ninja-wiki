@@ -23,7 +23,7 @@ class Output_HTML
 	{
 		$this->code		= '_WORD_';
 		$this->linecomment 	= '<font color="green">_WORD_</font>';
-		$this->blockcomment = '<font color="green">_WORD_</font>';
+		$this->blockcomment     = '<font color="green">_WORD_</font>';
 		$this->prepro 		= '<font color="purple">_WORD_</font>';
 		$this->select 		= '<font color="red"><b>_WORD_</b></font>';
 		$this->quote 		= '<font color="#808080">_WORD_</font>';
