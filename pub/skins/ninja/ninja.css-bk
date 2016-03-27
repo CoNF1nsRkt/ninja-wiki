@@ -1,0 +1,436 @@
+/* This sets the overall frame for the site */
+body {
+max-width: 100%;
+margin: 5px;
+padding-top: 6px;
+background-color: #000000;
+background-image: url("wallpaper.png"); 
+color: #808080;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 11pt;
+}
+
+.sourcecode {
+  word-wrap: break-word;
+  width: 100%;
+  color: #d9d9d9;
+  background-image: url("console.png");
+  background-color: #1B1B1B;
+  background-size:100%;
+  border: #3d3d3d 1px dotted;
+  padding:  1em 2em;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+.escaped {
+  word-wrap: break-word;
+  background-color: #0d0d0d;
+  background-size:100%;
+  color: #d9d9d9;
+  border: #3d3d3d 1px dotted;
+  padding:  1em 2em;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+/* The #wikilogo element is the logo from $PageLogoFmt */
+#wikilogo {
+background: url(header.png) no-repeat;
+font-size: 165%;
+margin-top: 0px;
+padding: 4px 6px 2px 6px;
+}
+
+/* This controls the rest of the heading (primarily the search box) */
+#wikihead {
+position: absolute;
+right: 10px;
+top: 15px;
+font-size: 120%;
+}
+
+#wikihead input {
+font-size: 85%;
+}
+
+#wikiedit form {
+background: #262626;
+color: #999999;
+}
+
+#wikiedit textarea {
+background: #262626;
+color: #999999;
+}
+
+input[type="text"] {
+background: #262626;
+color: #999999;
+} 
+
+/* These are for the left-sidebar. */
+#wikileft {
+background-color: #1a1a1a;
+border-right: 1px dotted #101010;
+width: 140px;
+padding: 6px 6px 6px 8px;
+line-height: 1.33em;
+font-size: 10.3pt;
+}
+
+#wikileft .vspace {
+margin-top: 1.125em;
+text-shadow: 1px 1px black;
+}
+
+#wikileft a {
+text-decoration: none;
+color: #d9d9d9;
+}
+
+#wikileft a:hover {
+text-decoration: none;
+color: #00ccff;
+}
+
+#wikileft ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+#wikileft li {
+margin: 0px;
+padding-left: 6px;
+}
+
+/* These affect the main content area. */
+#wikibody {
+padding: 0px 10px 10px 10px;
+background-color: #262626;
+font-size: 12pt;
+max-width: 800px;
+}
+
+/* These affect the page actions (View, Edit, etc.). */
+#wikicmds {
+float:right;
+white-space: nowrap;
+font-size: 90%;
+padding-top: 4px;
+max-width: 100%
+}
+
+#wikicmds ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#wikicmds li {
+display: inline;
+margin: 0px 5px;
+}
+
+#wikicmds li a {
+text-decoration: none;
+color: #d9d9d9;
+border: none;
+}
+
+#wikicmds li a.createlink {
+display: none;
+}
+
+#wikicmds li a:hover {
+text-decoration: none;
+color: #00ccff;
+}
+
+/* This affects the page title (i.e Group / Page Title). */
+.pagetitle {
+color: #d9d9d9;
+line-height: 1em;
+margin: 0px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 1.3em;
+font-weight: normal;
+text-shadow: 1px 1px black;
+}
+
+/* These control the fixed-width text elements of the page */
+textarea {
+font-size: 0.9em;
+}
+
+/* These affect preformatted text and code blocks. */
+pre {
+font-size: 0.9em;
+max-width: 90%;
+margin-left: 10px;
+box-shadow: 0px 0px 5px 0px black;
+word-wrap: break-word;
+}
+
+code {
+font-size: 0.9em;
+}
+
+pre {
+vertical-align: center;
+background: black;
+padding: 2px 3px 2px 3px;
+font-family: 'Lucida Console','Andale Mono','Courier New',Courier,monospace;
+}
+
+code {
+background: #121212;
+padding: 0px 3px 0px 3px;
+font-family: 'Lucida Console','Andale Mono','Courier New',Courier,monospace;
+}
+
+pre {
+background: #121212;
+line-height: 1.2em;
+padding: .5em 2em .5em 2em;
+}
+
+pre code {
+background: #121212;
+font-size: 100%;
+}
+
+code code {
+background: #121212;
+font-size: 100%;
+}
+
+pre pre {
+background: #121212;
+font-size: 100%;
+}
+
+/* These primarily adjust the size and spacing of heading elements */
+h1 {
+border-bottom: 1px solid #999999;
+font-size: 20px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+margin-bottom: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+h2 {
+border-bottom: 1px solid #999999;
+font-size: 19px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+margin-bottom: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+h3 {
+border-bottom: 1px solid #999999;
+font-size: 18px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+margin-bottom: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+h4 {
+font-size: 17px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+padding-top: 1px;
+padding-bottom: 2px;
+}
+h5 {
+font-size: 16px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+padding-top: 1px;
+padding-bottom: 2px;
+}
+
+h6 {
+font-size: 14px;
+font-weight: normal;
+color: #999999;
+margin: 0;
+padding-top: 1px;
+padding-bottom: 2px;
+}
+
+.sidehead {
+margin: 0px;
+padding: 4px 2px 2px 2px;
+font-size: 11pt;
+font-weight: normal;
+font-style: normal;
+}
+
+/* These affect lists. */
+ol { list-style-type:decimal; }
+ol ol { list-style-type:lower-alpha; }
+ol ol ol { list-style-type:lower-roman; }
+ol ol ol ol { list-style-type:decimal; }
+ol ol ol ol ol { list-style-type:lower-alpha; }
+ol ol ol ol ol ol { list-style-type:lower-roman; }
+
+ul {
+list-style-type: square;
+list-style-image: url("bullet.gif");
+}
+
+/* These affect links in the sidebar and main body. */
+a:link {
+text-decoration: none;
+font-weight: normal;
+color: #d9d9d9;
+text-shadow: 1px 1px black;
+}
+
+a:visited {
+text-decoration: none;
+font-weight: normal;
+color: #d9d9d9;
+text-shadow: 1px 1px black;
+}
+
+a:focus {
+text-decoration: none;
+color: #00ccff;
+text-shadow: 1px 1px black;
+}
+
+a:hover {
+text-decoration: none;
+color: #00cbcc;
+text-shadow: 1px 1px black;
+}
+
+a.createlinktext {
+color: #d93a3a;
+text-shadow: 1px 1px black;
+}
+
+.wikiaction {
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+#wikitext {
+margin-top: 6px;
+line-height: 2.00em;
+padding: 1em;
+}
+
+/* For MSIE 5.5 */
+#wikitext table {
+font-size: 100%;
+line-height: 1.33em;
+}
+
+/* These are for the edit form. */
+#wikiedit form {
+margin: 0px;
+width: 100%;
+}
+
+#wikiedit textarea {
+width: 100%;
+}
+
+.wikimessage {
+margin-top: 4px;
+margin-bottom: 4px;
+font-style: italic;
+}
+
+table {
+border-collapse: collapse;
+}
+
+hr {
+height: 1px;
+width: 90%;
+margin-left: 35px;
+background-color: #b3d1ff;
+color: #d9d9d9;
+border: 0;
+}
+
+/* These affect the printed appearance of the web view (not the separate
+** print view) of pages.  The sidebar and action links aren't printed. */
+@media print {
+body {
+width: auto;
+margin: 0px;
+padding: 0.5em;
+}
+
+#wikihead {
+display: none;
+}
+
+#wikileft {
+display: none;
+}
+
+#wikicmds {
+display: none;
+}
+
+.footnav {
+display: none;
+}
+
+#wikifoot {
+padding: 2px;
+}
+
+}
+
+/* These affect the lines at the very bottom. */
+#wikifoot {
+border-top: 1px solid #000000;
+background-color: #0d0d0d;
+color: #737373;
+text-align: center;
+padding: 10px 10px 10px 10px;
+font-size: 85%;
+}
+
+#wikifoot a:link {
+color: #407ab3;
+}
+
+#wikifoot a:focus {
+text-decoration: underline;
+color: #8db4df;
+}
+
+#wikifoot a:hover {
+text-decoration: underline;
+color: #8db4df;
+}
+
+#wikifoot a:visited {
+color: #8340b3;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>$WikiTitle | {$Group} / {$Title} $ActionTitle</title>
+  <meta http-equiv='Content-Style-Type' content='text/css' />
+  <link rel='stylesheet' href='$SkinDirUrl/ninja.css' type='text/css' />
+  <!--HTMLHeader-->
+</head>
+
+<body>
+<!--PageHeaderFmt-->
+<img src="/pub/img/wiki.312.ninja.png" width="575" height="50">
+  
+  <div id='wikihead'>
+  <form action='{$ScriptUrl}'>
+    <input type='hidden' name='n' value='{$FullName}' />
+    <input type='hidden' name='action' value='search' />
+    <a href='{$ScriptUrl}/$[{$SiteGroup}/Search]'>$[Search]</a>:
+    <input type='text' name='q' value='' class='inputbox searchbox' />
+    <input type='submit' class='inputbutton searchbutton'
+      value='$[Go]' /></form></div>
+<!--/PageHeaderFmt-->
+  <table id='wikimid' width='100%' cellspacing='0' cellpadding='0'><tr>
+<!--PageLeftFmt-->
+
+      <td id='wikileft' valign='top'>
+        
+<center><img src="/pub/img/tools.png" width="70" height="70"></center>
+
+
+      <!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar--></td>
+<!--/PageLeftFmt-->
+      <td id='wikibody' valign='top'>
+<!--PageActionFmt-->
+
+        <div id='wikicmds'><!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions--></div>
+<!--PageTitleFmt-->
+        <div class='pagetitle'><a href='{$ScriptUrl}/{$Group}'>{$Group}</a> / {$Title}
+        </div>
+<!--PageText-->
+<br />
+      </td>
+    </tr></table>
+<!--PageFooterFmt-->
+  <div id='wikifoot'>
+    <div class='lastmod'>
+      $[Page last modified on {$LastModified}]
+    </div>
+  </div>
+<!--HTMLFooter-->
+
+</body>
+
+</html>
