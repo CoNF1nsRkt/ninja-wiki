@@ -30,6 +30,8 @@ class Output_HTML
 		$this->category_1 	= '<font color="#00ffff">_WORD_</font>';
 		$this->category_2 	= '<font color="#ffff1a">_WORD_</font>';
 		$this->category_3 	= '<font color="#cc0000">_WORD_</font>';
+		$this->category_4 	= '<font color="#ff00ff">_WORD_</font>';
+		$this->category_4 	= '<font color="#00ff00">_WORD_</font>';
 	}
 }
 ?>

@@ -30,6 +30,8 @@ class Output_css
 		$this->category_1 	= '<span class="category_1">_WORD_</span>';
 		$this->category_2 	= '<span class="category_2">_WORD_</span>';
 		$this->category_3 	= '<span class="category_3">_WORD_</span>';
+		$this->category_4 	= '<span class="category_4">_WORD_</span>';
+		$this->category_5 	= '<span class="category_5">_WORD_</span>';
 	}
 }
 ?>

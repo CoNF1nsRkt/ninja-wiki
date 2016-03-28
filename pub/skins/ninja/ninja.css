@@ -35,7 +35,7 @@ font-size: 11pt;
   background-color: #0d0d0d;
   background-size:100%;
   color: #d9d9d9;
-  border-left: #800000 6px solid;
+  border-left: #00b3b3 6px solid;
   white-space: pre;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -183,7 +183,7 @@ pre {
 font-size: 0.9em;
 max-width: 95%;
 margin-left: 1.2em;
-margin-top: 10px;
+
 box-shadow: 0px 0px 5px 0px black;
 word-wrap: break-word;
 }
